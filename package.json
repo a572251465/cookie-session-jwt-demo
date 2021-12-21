@@ -1,0 +1,24 @@
+{
+  "name": "cookie-session-jwt-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cookie": "nodemon cookie/index.js",
+    "session": "nodemon session/index.js",
+    "jwt": "nodemon jwt/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-session": "^6.2.0",
+    "koa2-cors": "^2.0.6",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "querystring": "^0.2.1",
+    "uuid": "^8.3.2"
+  }
+}
